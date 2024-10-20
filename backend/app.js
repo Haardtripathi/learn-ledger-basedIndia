@@ -7,7 +7,7 @@ const userRoutes = require('./routes/userRoutes');
 const { connectDB } = require('./config/db');
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:3006' }));
+app.use(cors({ origin: 'https://learn-ledger-basedindia-1.onrender.com' }));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
