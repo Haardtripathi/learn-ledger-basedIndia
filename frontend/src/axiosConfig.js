@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5001', // Replace with your backend API URL
+    baseURL: 'https://learn-ledger-basedindia.onrender.com', // Replace with your backend API URL
 });
 
 // Add a request interceptor
